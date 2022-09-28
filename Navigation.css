@@ -1,0 +1,39 @@
+ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: block;
+    width: 60px;
+    background-color:white;
+  }
+
+  li{
+    display: block;
+    color:black;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+  li hover {
+    background-color:aliceblue;
+    color: white;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    
+  li active {
+    background-color:black;
+    color: white;
+  }
+  
+  li hover:not(.active) {
+    background-color: #555;
+    color: white;
